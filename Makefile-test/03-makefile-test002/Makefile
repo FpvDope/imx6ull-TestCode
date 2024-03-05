@@ -1,4 +1,4 @@
-test001:A.o B.o C.o
+test002:A.o B.o C.o
 	gcc -o test002 $^
   
 %.o:%.c
