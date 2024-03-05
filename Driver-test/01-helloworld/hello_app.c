@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 
   /*2.打开设备文件*/
   fd = open("/dev/hello", O_RDWR);
-  if(fd = -1){
+  if(fd == -1){
     perror("open");
     return -1;
   }
